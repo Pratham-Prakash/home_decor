@@ -43,7 +43,8 @@ export default function ProductDetail() {
                         {/* Mobile Scroller */}
                         <div className="md:hidden flex overflow-x-auto space-x-4 snap-x snap-mandatory">
                             <div className="min-w-full flex-shrink-0 h-[425px] rounded overflow-hidden snap-center">
-                                <Image src="/productImages/prod1.svg" alt="Product 1" className="w-full h-full object-cover" />
+                                <Image  width={321}
+                                    height={413} src="/productImages/prod1.svg" alt="Product 1" className="w-full h-full object-cover" />
                             </div>
                             <div className="min-w-full flex-shrink-0 h-[425px] rounded overflow-hidden snap-center">
                                 <Image width={321}
