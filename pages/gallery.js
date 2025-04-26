@@ -121,14 +121,19 @@ export default function GalleryPage() {
                   className="bg-white p-3 rounded shadow-sm hover:shadow-md transition w-full max-w-[321px] h-[503px] mx-auto"
                 >
                   <Link href={`/productDetail`}>
-                    <div className="w-full h-[413px] rounded mb-2 overflow-hidden bg-blue-100">
+                    <div className="relative w-full h-[413px] rounded mb-2 overflow-hidden bg-blue-100 group ">
+                    <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition duration-300 z-10"></div>
+                    <div className="absolute left-10 bottom-2 hidden group-hover:block transition duration-300 justify-center z-20">
+                      <Image height={40} src={`/hiddenButton.svg`} alt='hidden - buttons' width={40} className='w-full' />
+                    </div>
                       <Image
                         src={`/productImages/prod${i + 1}.svg`}
                         alt="Product"
                         width={321}
                         height={413}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover "
                       />
+                     
                     </div>
                   </Link>
                   <p className="text-xs text-gray-500">

@@ -16,8 +16,10 @@ export default function CartPage() {
               style={{ maxWidth: "845px", height: "auto" }}
             >
               <Image
-                 src={`/cart${i + 1}.svg`}
+                src={`/cart${i + 1}.svg`}
                 alt="Product"
+                width={321}
+                height={413}
                 className="w-[180px] h-[180px] object-cover rounded bg-amber-100"
               />
               <div className="flex-1 sm:ml-6 mt-4 sm:mt-0 flex flex-col justify-between h-full w-full py-2">

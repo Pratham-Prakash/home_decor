@@ -7,8 +7,8 @@ export default function Testimonial() {
 
     <>
 
-       {/* Banner Section */}
-       < section className="relative w-full h-[245px] overflow-hidden" >
+      {/* Banner Section */}
+      < section className="relative w-full h-[245px] overflow-hidden" >
         {/* Background image with gradient overlay */}
         < div
           className="absolute inset-0 bg-cover bg-right"
@@ -26,7 +26,7 @@ export default function Testimonial() {
           <div className="text-white max-w-2xl">
             <h2 className="text-2xl md:text-4xl font-semibold mb-2">Our Happy Customer</h2>
             <p className="text-sm md:text-base text-gray-300">
-            Join thousands of happy customers who’ve transformed their homes with our thoughtfully curated decor. Don’t just take our word for it — read their stories, reviews, and see how they’ve styled their favorites.
+              Join thousands of happy customers who’ve transformed their homes with our thoughtfully curated decor. Don’t just take our word for it — read their stories, reviews, and see how they’ve styled their favorites.
             </p>
           </div>
         </div >
@@ -43,7 +43,8 @@ export default function Testimonial() {
             {/* Card 1 */}
             <div className="w-full max-w-[383px] h-[413px] border rounded-xl p-4 shadow-sm flex flex-col justify-between bg-white mx-auto">
               <div className="flex items-center gap-3">
-                <Image src="/avatar.svg" alt="User 1" className="w-[80px] h-[80px] rounded-full object-cover bg-red-200" />
+                <Image src="/avatar.svg" alt="User 1" width={321}
+                  height={413} className="w-[80px] h-[80px] rounded-full object-cover bg-red-200" />
                 <div>
                   <h4 className="font-semibold text-sm">Jane Cooper</h4>
                   <div className="flex text-yellow-400">
@@ -63,8 +64,10 @@ export default function Testimonial() {
                   See more <ArrowRight className="w-4 h-4" />
                 </a>
                 <div className="flex gap-2 mt-2">
-                  <Image src="/producT.SVG" className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
-                  <Image src="/producT.SVG" className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
+                  <Image src="/product.svg" width={321}
+                    height={413} className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
+                  <Image src="/product.svg" width={321}
+                    height={413} className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
                 </div>
               </div>
             </div>
@@ -72,7 +75,8 @@ export default function Testimonial() {
             {/* Card 2 */}
             <div className="w-full max-w-[383px] h-[413px] border rounded-xl p-4 shadow-sm flex flex-col justify-between bg-white mx-auto">
               <div className="flex items-center gap-3">
-                <Image src="/avatar.svg" alt="User 2" className="w-[80px] h-[80px] rounded-full object-cover bg-yellow-100" />
+                <Image src="/avatar.svg" alt="User 2" width={321}
+                  height={413} className="w-[80px] h-[80px] rounded-full object-cover bg-yellow-100" />
                 <div>
                   <h4 className="font-semibold text-sm">Ronald Richards</h4>
                   <div className="flex text-yellow-400">
@@ -92,8 +96,10 @@ export default function Testimonial() {
                   See more <ArrowRight className="w-4 h-4" />
                 </a>
                 <div className="flex gap-2 mt-2">
-                  <Image src="/producT.SVG" className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
-                  <Image src="/producT.SVG" className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
+                  <Image src="/product.svg" width={321}
+                    height={413} className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
+                  <Image src="/product.svg" width={321}
+                    height={413} className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
                 </div>
               </div>
             </div>
@@ -104,7 +110,8 @@ export default function Testimonial() {
             {/* Card 3 */}
             <div className="w-full max-w-[383px] h-[413px] border rounded-xl p-4 shadow-sm flex flex-col justify-between bg-white mx-auto">
               <div className="flex items-center gap-3">
-                <Image src="/avatar.svg" alt="User 3" className="w-[80px] h-[80px] rounded-full object-cover bg-blue-100" />
+                <Image src="/avatar.svg" width={321}
+                  height={413} alt="User 3" className="w-[80px] h-[80px] rounded-full object-cover bg-blue-100" />
                 <div>
                   <h4 className="font-semibold text-sm">Courtney Henry</h4>
                   <div className="flex text-yellow-400">
@@ -124,8 +131,10 @@ export default function Testimonial() {
                   See more <ArrowRight className="w-4 h-4" />
                 </a>
                 <div className="flex gap-2 mt-2">
-                  <Image src="/producT.SVG" className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
-                  <Image src="/producT.SVG" className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
+                  <Image width={321}
+                    height={413} src="/product.svg" className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
+                  <Image width={321}
+                    height={413} src="/product.svg" className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
                 </div>
               </div>
             </div>
@@ -133,7 +142,8 @@ export default function Testimonial() {
             {/* Card 4 */}
             <div className="w-full max-w-[383px] h-[413px] border rounded-xl p-4 shadow-sm flex flex-col justify-between bg-white mx-auto">
               <div className="flex items-center gap-3">
-                <Image src="/avatar.svg" alt="User 4" className="w-[80px] h-[80px] rounded-full object-cover bg-green-100" />
+                <Image width={321}
+                  height={413} src="/avatar.svg" alt="User 4" className="w-[80px] h-[80px] rounded-full object-cover bg-green-100" />
                 <div>
                   <h4 className="font-semibold text-sm">Wade Warren</h4>
                   <div className="flex text-yellow-400">
@@ -153,8 +163,10 @@ export default function Testimonial() {
                   See more <ArrowRight className="w-4 h-4" />
                 </a>
                 <div className="flex gap-2 mt-2">
-                  <Image src="/producT.SVG" className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
-                  <Image src="/producT.SVG" className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
+                  <Image width={321}
+                    height={413} src="/product.svg" className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
+                  <Image width={321}
+                    height={413} src="/product.svg" className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
                 </div>
               </div>
             </div>
@@ -165,7 +177,8 @@ export default function Testimonial() {
             {/* Card 1 */}
             <div className="w-full max-w-[383px] h-[413px] border rounded-xl p-4 shadow-sm flex flex-col justify-between bg-white mx-auto">
               <div className="flex items-center gap-3">
-                <Image src="/avatar.svg" alt="User 1" className="w-[80px] h-[80px] rounded-full object-cover bg-red-200" />
+                <Image width={321}
+                  height={413} src="/avatar.svg" alt="User 1" className="w-[80px] h-[80px] rounded-full object-cover bg-red-200" />
                 <div>
                   <h4 className="font-semibold text-sm">Jane Cooper</h4>
                   <div className="flex text-yellow-400">
@@ -185,8 +198,10 @@ export default function Testimonial() {
                   See more <ArrowRight className="w-4 h-4" />
                 </a>
                 <div className="flex gap-2 mt-2">
-                  <Image src="/producT.SVG" className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
-                  <Image src="/producT.SVG" className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
+                  <Image width={321}
+                    height={413} src="/product.svg" className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
+                  <Image width={321}
+                    height={413} src="/product.svg" className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
                 </div>
               </div>
             </div>
@@ -194,7 +209,8 @@ export default function Testimonial() {
             {/* Card 2 */}
             <div className="w-full max-w-[383px] h-[413px] border rounded-xl p-4 shadow-sm flex flex-col justify-between bg-white mx-auto">
               <div className="flex items-center gap-3">
-                <Image src="/avatar.svg" alt="User 2" className="w-[80px] h-[80px] rounded-full object-cover bg-yellow-100" />
+                <Image width={321}
+                  height={413} src="/avatar.svg" alt="User 2" className="w-[80px] h-[80px] rounded-full object-cover bg-yellow-100" />
                 <div>
                   <h4 className="font-semibold text-sm">Ronald Richards</h4>
                   <div className="flex text-yellow-400">
@@ -214,8 +230,10 @@ export default function Testimonial() {
                   See more <ArrowRight className="w-4 h-4" />
                 </a>
                 <div className="flex gap-2 mt-2">
-                  <Image src="/producT.SVG" className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
-                  <Image src="/producT.SVG" className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
+                  <Image width={321}
+                    height={413} src="/product.svg" className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
+                  <Image width={321}
+                    height={413} src="/product.svg" className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
                 </div>
               </div>
             </div>
@@ -226,7 +244,8 @@ export default function Testimonial() {
             {/* Card 3 */}
             <div className="w-full max-w-[383px] h-[413px] border rounded-xl p-4 shadow-sm flex flex-col justify-between bg-white mx-auto">
               <div className="flex items-center gap-3">
-                <Image src="/avatar.svg" alt="User 3" className="w-[80px] h-[80px] rounded-full object-cover bg-blue-100" />
+                <Image width={321}
+                  height={413} src="/avatar.svg" alt="User 3" className="w-[80px] h-[80px] rounded-full object-cover bg-blue-100" />
                 <div>
                   <h4 className="font-semibold text-sm">Courtney Henry</h4>
                   <div className="flex text-yellow-400">
@@ -246,8 +265,10 @@ export default function Testimonial() {
                   See more <ArrowRight className="w-4 h-4" />
                 </a>
                 <div className="flex gap-2 mt-2">
-                  <Image src="/producT.SVG" className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
-                  <Image src="/producT.SVG" className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
+                  <Image width={321}
+                    height={413} src="/product.svg" className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
+                  <Image width={321}
+                    height={413} src="/product.svg" className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
                 </div>
               </div>
             </div>
@@ -255,7 +276,8 @@ export default function Testimonial() {
             {/* Card 4 */}
             <div className="w-full max-w-[383px] h-[413px] border rounded-xl p-4 shadow-sm flex flex-col justify-between bg-white mx-auto">
               <div className="flex items-center gap-3">
-                <Image src="/avatar.svg" alt="User 4" className="w-[80px] h-[80px] rounded-full object-cover bg-green-100" />
+                <Image width={321}
+                  height={413} src="/avatar.svg" alt="User 4" className="w-[80px] h-[80px] rounded-full object-cover bg-green-100" />
                 <div>
                   <h4 className="font-semibold text-sm">Wade Warren</h4>
                   <div className="flex text-yellow-400">
@@ -275,8 +297,10 @@ export default function Testimonial() {
                   See more <ArrowRight className="w-4 h-4" />
                 </a>
                 <div className="flex gap-2 mt-2">
-                  <Image src="/producT.SVG" className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
-                  <Image src="/producT.SVG" className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
+                  <Image width={321}
+                    height={413} src="/product.svg" className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
+                  <Image width={321}
+                    height={413} src="/product.svg" className="w-[73px] h-[68px] object-cover rounded bg-gray-200" />
                 </div>
               </div>
             </div>

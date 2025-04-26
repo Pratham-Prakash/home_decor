@@ -59,6 +59,8 @@ export default function AboutPage() {
                   src="/story1.svg"
                   alt="Store"
                   className="w-full h-full object-cover"
+                  width={321}
+                        height={413}
                 />
               </div>
             </div>
@@ -73,6 +75,8 @@ export default function AboutPage() {
                   src="/story2.svg"
                   alt="Founder"
                   className="w-full h-full object-cover bg-amber-100"
+                  width={321}
+                        height={413}
                 />
               </div>
             </div>
@@ -172,6 +176,8 @@ export default function AboutPage() {
               src="/scene1.svg"
               alt="Inspired Design"
               className="w-[250px] h-[250px] object-contain"
+              width={321}
+                        height={413}
             />
             <h3 className="mt-4 font-medium text-sm">Inspired Design</h3>
             <p className="text-xs text-gray-600 mt-2">
@@ -186,6 +192,8 @@ export default function AboutPage() {
               src="/scene2.svg"
               alt="Thoughtful Sourcing"
               className="w-[250px] h-[250px] object-contain"
+              width={321}
+                        height={413}
             />
             <h3 className="mt-4 font-medium text-sm">Thoughtful Sourcing</h3>
             <p className="text-xs text-gray-600 mt-2">
@@ -200,6 +208,8 @@ export default function AboutPage() {
               src="/scene3.svg"
               alt="Crafted with Care"
               className="w-[250px] h-[250px] object-contain"
+              width={321}
+                        height={413}
             />
             <h3 className="mt-4 font-medium text-sm">Crafted with Care</h3>
             <p className="text-xs text-gray-600 mt-2">
@@ -214,6 +224,8 @@ export default function AboutPage() {
               src="/scene4.svg"
               alt="Delivered with Love"
               className="w-[250px] h-[250px] object-contain"
+              width={321}
+                        height={413}
             />
             <h3 className="mt-4 font-medium text-sm">Delivered with Love</h3>
             <p className="text-xs text-gray-600 mt-2">

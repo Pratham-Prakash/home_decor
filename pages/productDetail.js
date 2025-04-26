@@ -15,22 +15,28 @@ export default function ProductDetail() {
                         {/* Desktop Grid */}
                         <div className="hidden md:grid grid-cols-2 gap-4">
                             <div className="w-full h-[425px] rounded overflow-hidden">
-                                <Image src="/productImages/detProd1.svg" alt="Product 1" className="w-full h-full object-cover bg-blue-50" />
+                                <Image width={321}
+                                    height={413} src="/productImages/detProd1.svg" alt="Product 1" className="w-full h-full object-cover bg-blue-50" />
                             </div>
                             <div className="w-full h-[425px] rounded overflow-hidden">
-                                <Image src="/productImages/detProd2.svg" alt="Product 2" className="w-full h-full object-cover bg-blue-50" />
+                                <Image width={321}
+                                    height={413} src="/productImages/detProd2.svg" alt="Product 2" className="w-full h-full object-cover bg-blue-50" />
                             </div>
                             <div className="w-full h-[425px] rounded overflow-hidden">
-                                <Image src="/productImages/detProd3.svg" alt="Product 3" className="w-full h-full object-cover bg-blue-50" />
+                                <Image width={321}
+                                    height={413} src="/productImages/detProd3.svg" alt="Product 3" className="w-full h-full object-cover bg-blue-50" />
                             </div>
                             <div className="w-full h-[425px] rounded overflow-hidden">
-                                <Image src="/productImages/detProd4.svg" alt="Product 4" className="w-full h-full object-cover bg-blue-50" />
+                                <Image width={321}
+                                    height={413} src="/productImages/detProd4.svg" alt="Product 4" className="w-full h-full object-cover bg-blue-50" />
                             </div>
                             <div className="w-full h-[425px] rounded overflow-hidden">
-                                <Image src="/productImages/detProd5.svg" alt="Product 5" className="w-full h-full object-cover bg-blue-50" /> bg-blue-50
+                                <Image width={321}
+                                    height={413} src="/productImages/detProd5.svg" alt="Product 5" className="w-full h-full object-cover bg-blue-50" /> bg-blue-50
                             </div>
                             <div className="w-full h-[425px] rounded overflow-hidden">
-                                <Image src="/productImages/detProd6.svg" alt="Product 6" className="w-full h-full object-cover bg-blue-50" />
+                                <Image width={321}
+                                    height={413} src="/productImages/detProd6.svg" alt="Product 6" className="w-full h-full object-cover bg-blue-50" />
                             </div>
                         </div>
 
@@ -40,19 +46,24 @@ export default function ProductDetail() {
                                 <Image src="/images/product-1.jpg" alt="Product 1" className="w-full h-full object-cover" />
                             </div>
                             <div className="min-w-full flex-shrink-0 h-[425px] rounded overflow-hidden snap-center">
-                                <Image src="/images/product-2.jpg" alt="Product 2" className="w-full h-full object-cover" />
+                                <Image width={321}
+                                    height={413} src="/productImages/prod2.svg" alt="Product 2" className="w-full h-full object-cover" />
                             </div>
                             <div className="min-w-full flex-shrink-0 h-[425px] rounded overflow-hidden snap-center">
-                                <Image src="/images/product-3.jpg" alt="Product 3" className="w-full h-full object-cover" />
+                                <Image width={321}
+                                    height={413} src="/productImages/prod3.svg" alt="Product 3" className="w-full h-full object-cover" />
                             </div>
                             <div className="min-w-full flex-shrink-0 h-[425px] rounded overflow-hidden snap-center">
-                                <Image src="/images/product-4.jpg" alt="Product 4" className="w-full h-full object-cover" />
+                                <Image width={321}
+                                    height={413} src="/productImages/prod4.svg" alt="Product 4" className="w-full h-full object-cover" />
                             </div>
                             <div className="min-w-full flex-shrink-0 h-[425px] rounded overflow-hidden snap-center">
-                                <Image src="/images/product-5.jpg" alt="Product 5" className="w-full h-full object-cover" />
+                                <Image width={321}
+                                    height={413} src="/productImages/prod5.svg" alt="Product 5" className="w-full h-full object-cover" />
                             </div>
                             <div className="min-w-full flex-shrink-0 h-[425px] rounded overflow-hidden snap-center">
-                                <Image src="/images/product-6.jpg" alt="Product 6" className="w-full h-full object-cover" />
+                                <Image width={321}
+                                    height={413} src="/productImages/prod6.svg" alt="Product 6" className="w-full h-full object-cover" />
                             </div>
                         </div>
                     </div>
@@ -187,6 +198,7 @@ export default function ProductDetail() {
                                     alt="Product"
                                     fill
                                     className="object-cover"
+
                                 />
                             </div>
                             <p className="text-sm mt-2 text-gray-700 leading-tight line-clamp-2">{item.desc}</p>
@@ -306,7 +318,7 @@ export default function ProductDetail() {
                 </div>
             </section>
 
-      
+
         </>
 
 

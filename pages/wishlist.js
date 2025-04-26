@@ -11,6 +11,8 @@ export default function WishlistPage() {
         <Image
           src="/cart1.svg"
           alt="Wishlist Product"
+          width={321}
+          height={413}
           className="w-[150px] h-[150px] object-cover rounded bg-amber-100"
         />
         <div className="flex-1 sm:ml-6 mt-4 sm:mt-0 flex flex-col justify-between w-full">
@@ -49,6 +51,8 @@ export default function WishlistPage() {
         <Image
           src="/cart2.svg"
           alt="Wishlist Product"
+          width={321}
+          height={413}
           className="w-[150px] h-[150px] object-cover rounded bg-amber-100"
         />
         <div className="flex-1 sm:ml-6 mt-4 sm:mt-0 flex flex-col justify-between w-full">
@@ -86,6 +90,8 @@ export default function WishlistPage() {
         <Image
           src="/cart3.svg"
           alt="Wishlist Product"
+          width={321}
+          height={413}
           className="w-[150px] h-[150px] object-cover rounded bg-amber-100"
         />
         <div className="flex-1 sm:ml-6 mt-4 sm:mt-0 flex flex-col justify-between w-full">

@@ -27,7 +27,7 @@ export default function HeroSection() {
 
 
         {/* fgedfg retgregrefge wrg */}
-        <div className="grid grid-cols-2 gap-4 max-w-2xl mx-auto">
+        <div className=" hidden sm:grid grid-cols-2 gap-4 max-w-2xl mx-auto">
           {/* First Row - Left */}
           <div className="col-span-2 flex gap-4">
             <div className="w-[300px] h-[300px] rounded-lg flex items-center justify-center overflow-hidden">
