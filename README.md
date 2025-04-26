@@ -2,6 +2,9 @@
 
 This is a Next.js project bootstrapped with `create-next-app`. It is a home decor website built using React, Next.js, and various libraries.
 
+# Hosted
+open [https://home-decor-sand.vercel.app/] (https://home-decor-sand.vercel.app/) within your browser to see result
+
 ## Technologies Used
 
 * **Framework:** Next.js
